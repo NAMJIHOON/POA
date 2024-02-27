@@ -118,8 +118,8 @@ class Settings(BaseSettings):
     KIS4_ACCOUNT_CODE: str | None = None
     KIS4_KEY: str | None = None
     KIS4_SECRET: str | None = None
-    DB_ID: str = "poa@admin.com"
-    DB_PASSWORD: str = "poabot!@#$"
+    DB_ID: str = "mackoon@admin.com"
+    DB_PASSWORD: str = "mackoonbot!@#$"
 
     class Config:
         env_file = env_path  # ".env"
